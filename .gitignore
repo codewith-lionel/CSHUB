@@ -1,0 +1,46 @@
+﻿# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# --- Environment Files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build Artifacts ---
+build/
+dist/
+coverage/
+.next/
+out/
+
+# --- IDE and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Cache and Temp ---
+node_modules/.cache/
+.eslintcache
+*.log
+tmp/
+.cache/
+
+# --- Backend Specific ---
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Misc ---
+*.swp
+*.swo
+*.bak
+*.orig

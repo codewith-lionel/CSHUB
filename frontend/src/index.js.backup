@@ -1,0 +1,35 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementByI-3xl text-primary-600" />
+            <div>
+              <h1 className="text-lg font-bold text-gray-900">CS Department</h1>
+              <p className="text-sm text-gray-500">Admin Panel</p>
+            </div>
+          </Link>
+        </div>
+
+        {/* Menu Items */}
+        <nav className="flex-1 overflow-y-auto p-4">
+          <ul className="space-y-2">
+            {menuItems.map((item) => (
+              <li key={item.path}>
+                <Link
+                  to={item.path}
+                  className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
+                    isActive(item.path)
+                      ? 'bg-primary-50 text-primary-600'
+                      : 'text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  <item.icon className="text-xl" />
+                  <span className="font-medium">{item.label}</span>
+                </Link>
+              </lid('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
